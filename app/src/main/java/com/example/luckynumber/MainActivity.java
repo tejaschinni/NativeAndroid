@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         checkBox = findViewById(R.id.checkbox1);
         grp = findViewById(R.id.radiogrp);
-        Intent i = new Intent(getApplicationContext(),PlanetApp.class);
+        Intent i = new Intent(getApplicationContext(),VolumnAreaApp.class);
         startActivity(i);
         grp.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
